@@ -1,5 +1,5 @@
 // IMPORT MODULES under test here:
-import { add } from '../calculations.js';
+import { add } from './calculations.js';
 
 const test = QUnit.test;
 
@@ -39,7 +39,7 @@ test('adds num 4 and 3', (expect) => {
     expect.equal(actual, expected);
 });
 
-import { sub } from '../calculations.js';
+import { sub } from './calculations.js';
 
 test('sub num 3 and 2', (expect) => {
     const x = 3;
@@ -49,7 +49,7 @@ test('sub num 3 and 2', (expect) => {
     expect.equal(actual, expected);
 });
 
-import { multi } from '../calculations.js';
+import { multi } from './calculations.js';
 
 test('multi num 3 and 2', (expect) => {
     const x = 3;
@@ -59,7 +59,7 @@ test('multi num 3 and 2', (expect) => {
     expect.equal(actual, expected);
 });
 
-import { divi } from '../calculations.js';
+import { divi } from './calculations.js';
 
 test('divi num 10 and 2', (expect) => {
     const x = 10;
