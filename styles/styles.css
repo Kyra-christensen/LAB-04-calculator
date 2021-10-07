@@ -44,3 +44,9 @@ main {
 section {
     display: contents;
 }
+
+span {
+    background-color:#A2D7D2;
+    width: 100px;
+}
+

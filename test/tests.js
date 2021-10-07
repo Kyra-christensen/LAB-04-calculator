@@ -68,4 +68,3 @@ test('divi num 10 and 2', (expect) => {
     const actual = divi(x, y);
     expect.equal(actual, expected);
 });
-console.log(divi(10, 2));
