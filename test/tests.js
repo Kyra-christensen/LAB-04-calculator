@@ -49,4 +49,23 @@ test('sub num 3 and 2', (expect) => {
     expect.equal(actual, expected);
 });
 
+import { multi } from '../calculations.js';
 
+test('multi num 3 and 2', (expect) => {
+    const x = 3;
+    const y = 2;
+    const expected = 6;
+    const actual = multi(x, y);
+    expect.equal(actual, expected);
+});
+
+import { divi } from '../calculations.js';
+
+test('divi num 10 and 2', (expect) => {
+    const x = 10;
+    const y = 2;
+    const expected = 5;
+    const actual = divi(x, y);
+    expect.equal(actual, expected);
+});
+console.log(divi(10, 2));
