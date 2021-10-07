@@ -1,8 +1,8 @@
 // import functions
 import { add } from './calculations.js';
-import { sub } from '../calculations.js';
-import { multi } from '../calculations.js';
-import { divi } from '../calculations.js';
+import { sub } from './calculations.js';
+import { multi } from './calculations.js';
+import { divi } from './calculations.js';
 
 
 // reference needed DOM elements
