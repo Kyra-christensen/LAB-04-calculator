@@ -38,3 +38,15 @@ test('adds num 4 and 3', (expect) => {
     // Make assertions about what is expected versus the actual result
     expect.equal(actual, expected);
 });
+
+import { sub } from '../calculations.js';
+
+test('sub num 3 and 2', (expect) => {
+    const x = 3;
+    const y = 2;
+    const expected = 1;
+    const actual = sub(x, y);
+    expect.equal(actual, expected);
+});
+
+
